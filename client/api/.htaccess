@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /api/
+RewriteRule (.*) http://rest.loc/server/api/$1 [P]
